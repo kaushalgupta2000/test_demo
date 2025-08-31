@@ -1,0 +1,9 @@
+{
+	"name": "adf-cars-kaushal",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0115f6e0-b423-48fa-a667-fc2c03177622",
+		"tenantId": "ce0c6c82-eb21-45ca-b028-ec16b8132a80"
+	}
+}
