@@ -1,1 +1,1 @@
-Azure Data Fcatory Project
+Azure Data Factory Project
