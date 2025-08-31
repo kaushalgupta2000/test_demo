@@ -239,13 +239,16 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "select * from watermark_table",
+						"sqlReaderQuery": "select max(date_id) as max_date from source_cars_data",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
 					"dataset": {
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"table_name": "source_cars_data"
+						}
 					},
 					"firstRowOnly": false
 				}
